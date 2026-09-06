@@ -48,7 +48,7 @@
    5.3. Interconexión en el nivel de red: enrutadores y encaminamiento
    5.4. Dispositivos de frontera, pasarelas y puntos de acceso
 
-6. **Normativa y aplicación en la Administración pública**
+6. **Normativa y aplicación en la Administración pública (material complementario)**
    6.1. Estándares de cableado estructurado e infraestructura
    6.2. Seguridad y control de acceso en redes administrativas
    6.3. Adecuación al Esquema Nacional de Seguridad

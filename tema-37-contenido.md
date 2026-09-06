@@ -817,6 +817,8 @@ Conviene advertir de una **ambigüedad terminológica que induce a error en los 
 
 ## 6. Normativa y aplicación en la Administración pública
 
+> **Material complementario.** El enunciado oficial de este tema no nombra este apartado. Se mantiene porque sitúa la materia en el Ayuntamiento y en la normativa que le aplica, pero lo exigible es lo que enumera el título del tema.
+
 ### 6.1. Estándares de cableado estructurado e infraestructura
 
 **Qué es el cableado estructurado y por qué existe.** Antes de su normalización, cada tecnología de red exigía su propio cable: coaxial grueso para Ethernet, par apantallado para Token Ring, otro tendido para la telefonía. Cambiar de tecnología significaba **recablear el edificio**. El **cableado estructurado** invierte el planteamiento: se instala una **infraestructura genérica, normalizada e independiente de la aplicación**, capaz de soportar voz, datos, vídeo y control durante toda la vida útil del edificio, de modo que cambiar de tecnología sea un cambio de electrónica en el armario, no de obra [ISO11801].
