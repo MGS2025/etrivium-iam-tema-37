@@ -20,13 +20,13 @@ El enunciado oficial (BOAM 10.032, tema 37) enumera **cinco materias encadenadas
 | Dispositivos de interconexión | §5 | ✅ Completo |
 | — Normativa y aplicación en la Administración (no está en el enunciado, sí en el esqueleto) | §6 | ✅ Completo |
 
-El **esqueleto de partida** (`Test_Prompting/temas agosto/37.md`) se ha seguido **literalmente**: sus seis bloques de primer nivel son las seis secciones, sus veintidós bloques de segundo nivel son los veintidós epígrafes y sus diez bloques de tercer nivel son los diez subepígrafes. **Es el segundo tema de la serie cuyo esqueleto mapea sin ningún ajuste a los tres niveles de numeración**, tras el T34 y a diferencia de lo ocurrido en T27 y T30, cuya decisión de mapeo sigue pendiente de validación.
+El **esqueleto de partida** se ha seguido **literalmente**: sus seis bloques de primer nivel son las seis secciones, sus veintidós bloques de segundo nivel son los veintidós epígrafes y sus diez bloques de tercer nivel son los diez subepígrafes. **Es el segundo tema de la serie cuyo esqueleto mapea sin ningún ajuste a los tres niveles de numeración**, tras el T34 y a diferencia de lo ocurrido en T27 y T30, cuya decisión de mapeo sigue pendiente de validación.
 
 ## 2. Contenido teórico
 
 - **6 secciones · 22 epígrafes · 10 subepígrafes** (numeración de tres niveles, `N.M.K`, coherente con el resto de la serie técnica).
 - **~23.000 palabras** medidas con `wc -w`. Es el **tercer tema más extenso de la serie**, por detrás de T32 (≈25.000) y T33 (≈24.500), y por delante de T34 (≈21.500). La causa es estructural: el enunciado encadena **cinco materias completas**, cada una de las cuales tiene entidad propia.
-- **4 tipos de callout**: `[DATO CLAVE EXAMEN]`, `[EJERCICIO RESUELTO]`, `[EJEMPLO AYTO MADRID]` y `[REFERENCIA CRUZADA]`.
+- **4 tipos de callout**: `[DATO CLAVE]`, `[EJERCICIO RESUELTO]`, `[EJEMPLO DE APLICACIÓN EN EL AYTO]` y `[RELACIÓN CON OTROS TEMAS]`.
 - **Caso de referencia transversal**: la red local de una Oficina de Atención a la Ciudadanía de distrito, en un edificio municipal de tres plantas, conectada con el centro de proceso de datos del IAM. Atraviesa las seis secciones y enlaza con los tres casos prácticos.
 - Cierre con un bloque de **«los diez datos que no se pueden fallar»**, no numerado, a modo de resumen memorístico de última hora.
 - **Sin fragmentos de código.** Decisión deliberada, igual que en T26, T28, T29, T30, T32, T33 y T34: el enunciado no menciona ningún lenguaje y lo memorizable son **tamaños de trama, tiempos, distancias, categorías de cableado, numeración de normas IEEE y códigos del ENS**. Se han concentrado en tablas y en los diagramas D8, D10, D13, D14, D16 y D17.
@@ -84,7 +84,7 @@ Cada caso suma **10 puntos** repartidos en cuatro cuestiones, con solución orie
 
 Los 19 diagramas son SVG inline, sin dependencias externas, con `role="img"` y `aria-label` descriptivo en español, y con las clases CSS sufijadas por número para evitar colisiones de estilo entre ellos.
 
-**Los seis que hay que memorizar**, por orden de rentabilidad en un examen: **D16** (dispositivos por capa con sus dominios de colisión y de difusión), **D13** (CSMA/CD y la regla de los 64 octetos), **D14** (CSMA/CA con sus tiempos y el nodo oculto), **D17** (la etiqueta 802.1Q campo a campo), **D5** (topología física frente a lógica) y **D19** (las cuatro medidas `mp.com` con su aplicación por categoría).
+**Los seis que hay que memorizar**, por orden de rentabilidad: **D16** (dispositivos por capa con sus dominios de colisión y de difusión), **D13** (CSMA/CD y la regla de los 64 octetos), **D14** (CSMA/CA con sus tiempos y el nodo oculto), **D17** (la etiqueta 802.1Q campo a campo), **D5** (topología física frente a lógica) y **D19** (las cuatro medidas `mp.com` con su aplicación por categoría).
 
 **Reglas de composición aplicadas desde el origen**, conforme a las lecciones acumuladas en la serie:
 
@@ -105,7 +105,7 @@ Los 19 diagramas son SVG inline, sin dependencias externas, con `role="img"` y `
 ## 9. Puntos que se someten a validación
 
 1. **El reparto de fronteras con T33, T30, T34, T36 y T39** descrito en el punto 3. Es la decisión de mayor calado del tema y conviene fijarla con el IAM **antes de generar el T36**, que vuelve a limitar con este.
-2. **La extensión.** ~23.000 palabras es mucho, pero es consecuencia directa de un enunciado con cinco materias. Si María o Ana consideran que hay que reducir, el candidato natural es §3.3 (modulación y codificación), que es la parte más técnica y la que menos preguntas produce en un examen de C1.
-3. **El tratamiento de las tecnologías retiradas** (Token Ring, Token Bus, FDDI, concentrador, coaxial). Se han desarrollado con detalle porque **el temario oficial las pide expresamente** al hablar de métodos de acceso y de dispositivos, y porque son preguntas cerradas y rentables. Se somete a validación si el nivel de detalle es el adecuado.
+2. **La extensión.** ~23.000 palabras es mucho, pero es consecuencia directa de un enunciado con cinco materias. Si María o Ana consideran que hay que reducir, el candidato natural es §3.3 (modulación y codificación), que es la parte más técnica.
+3. **El tratamiento de las tecnologías retiradas** (Token Ring, Token Bus, FDDI, concentrador, coaxial). Se han desarrollado con detalle porque **el temario oficial las pide expresamente** al hablar de métodos de acceso y de dispositivos, y porque son materia cerrada y estable. Se somete a validación si el nivel de detalle es el adecuado.
 4. **La inclusión del artículo 88 de la Ley 11/2022** sobre el régimen del espectro. Es un dato que ningún temario recoge y que exige criterio: se ha incluido porque el enunciado del tema 37 no tiene bloque normativo propio y el esqueleto sí pide una sección de aplicación en la Administración pública.
 5. **Los datos de actualidad de 2025 y 2026** (Wi-Fi 7 publicada, Wi-Fi 8 en borrador, 800 Gbit/s normalizados). Aportan valor frente a los temarios del mercado, pero **envejecen**: conviene revisarlos en cada convocatoria.

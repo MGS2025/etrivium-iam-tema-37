@@ -35,10 +35,10 @@ def inline(t):
 
 
 CALLOUTS = {
-    "DATO CLAVE EXAMEN": "dato",
+    "DATO CLAVE": "dato",
     "EJERCICIO RESUELTO": "ejercicio",
-    "EJEMPLO AYTO MADRID": "ayto",
-    "REFERENCIA CRUZADA": "ref",
+    "EJEMPLO DE APLICACIÓN EN EL AYTO": "ayto",
+    "RELACIÓN CON OTROS TEMAS": "ref",
 }
 
 
@@ -345,7 +345,7 @@ def build():
 <tr><td>Casos prácticos Ayto Madrid</td><td>3 casos (diseño de la red local de una Oficina de Atención a la Ciudadanía; diagnóstico de cuatro incidencias simultáneas; segmentación, control de acceso y adecuación al ENS)</td></tr>
 <tr><td>Fuentes Tier 1</td><td>22 referencias canónicas (familia IEEE 802, ISO/IEC 11801, EN 50173, TIA-568, ISO/IEC 9314, ENS, Ley 11/2022, RD 346/2011)</td></tr>
 </tbody></table>
-<div class="callout ref"><span class="kicker">Cómo estudiar</span>El enunciado es una <strong>lista de cuatro preguntas encadenadas sobre un mismo objeto</strong>, y no pesan lo mismo. La <strong>tipología</strong> (§2) produce preguntas de definición y de clasificación, fáciles si se tiene el vocabulario. Las <strong>técnicas de transmisión</strong> (§3) producen preguntas de dato puro. Los <strong>métodos de acceso</strong> (§4) son el corazón conceptual: <strong>CSMA/CD y CSMA/CA se preguntan casi siempre, y casi siempre por su diferencia</strong>. Y los <strong>dispositivos de interconexión</strong> (§5) son la parte más práctica, con una pregunta canónica que se repite: cuántos dominios de colisión y cuántos de difusión hay en un dibujo. Un aviso: buena parte del tema describe tecnologías <strong>retiradas</strong> —el coaxial, el concentrador, Token Ring, FDDI—, y es tentador saltárselas; sería un error, porque el temario oficial las pide expresamente y porque <strong>la red local moderna se entiende por contraste con ellas</strong>. Memoriza los <strong>Diagramas</strong> D16 (dispositivos por capa y sus dominios), D13 (CSMA/CD y la regla de los 64 octetos), D14 (CSMA/CA, sus tiempos y el nodo oculto), D17 (la etiqueta 802.1Q), D5 (topología física frente a lógica) y D19 (las medidas <code>mp.com</code> del ENS). Termina siempre por el bloque final del Contenido, <strong>«los diez datos que no se pueden fallar»</strong>.</div>"""
+<div class="callout ref"><span class="kicker">Cómo estudiar</span>El enunciado es una <strong>lista de cuatro preguntas encadenadas sobre un mismo objeto</strong>, y no pesan lo mismo. La <strong>tipología</strong> (§2) es materia de definición y de clasificación. Las <strong>técnicas de transmisión</strong> (§3) son dato puro. Los <strong>métodos de acceso</strong> (§4) son el corazón conceptual: <strong>CSMA/CD y CSMA/CA se estudian por su diferencia</strong>. Y los <strong>dispositivos de interconexión</strong> (§5) son la parte más práctica, con un ejercicio característico: contar cuántos dominios de colisión y cuántos de difusión hay en un dibujo. Un aviso: buena parte del tema describe tecnologías <strong>retiradas</strong> —el coaxial, el concentrador, Token Ring, FDDI—, y es tentador saltárselas; sería un error, porque el temario oficial las pide expresamente y porque <strong>la red local moderna se entiende por contraste con ellas</strong>. Memoriza los <strong>Diagramas</strong> D16 (dispositivos por capa y sus dominios), D13 (CSMA/CD y la regla de los 64 octetos), D14 (CSMA/CA, sus tiempos y el nodo oculto), D17 (la etiqueta 802.1Q), D5 (topología física frente a lógica) y D19 (las medidas <code>mp.com</code> del ENS). Termina siempre por el bloque final del Contenido, <strong>«los diez datos que no se pueden fallar»</strong>.</div>"""
 
     nav = (
         '<nav class="tabs">'

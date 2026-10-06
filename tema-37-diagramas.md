@@ -40,7 +40,7 @@
 ## D1 · Los cinco rasgos que definen una red local
 
 **Sección**: §1.1 — Definición, evolución y características principales
-**Propósito**: Fijar la definición operativa de red local en cinco rasgos y destacar cuál de ellos es el que realmente discrimina en un examen, que no es el alcance geográfico sino la **titularidad del medio**.
+**Propósito**: Fijar la definición operativa de red local en cinco rasgos y destacar cuál de ellos es el que realmente discrimina, que no es el alcance geográfico sino la **titularidad del medio**.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" role="img" aria-label="Los cinco rasgos que definen una red local: ámbito geográfico reducido, titularidad privada del medio, velocidad elevada, retardo y tasa de error bajos y medio inicialmente compartido; el criterio que de verdad discrimina no es la distancia sino que el cable sea propiedad de la organización y no de un operador">
@@ -206,7 +206,7 @@
 ## D4 · Las cuatro topologías básicas: fallo, cable y método de acceso
 
 **Sección**: §2.2.1 — Topologías básicas
-**Propósito**: Comparar las cuatro topologías por los cinco criterios con que siempre se preguntan, dibujando cada una y anotando qué ocurre cuando se rompe un enlace, que es la diferencia que más se explota en los test.
+**Propósito**: Comparar las cuatro topologías por cinco criterios, dibujando cada una y anotando qué ocurre cuando se rompe un enlace, que es la diferencia más significativa.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 366" role="img" aria-label="Las cuatro topologías básicas dibujadas y comparadas: bus, con mínimo cable pero cuya rotura parte la red; estrella, con equipo central que es punto único de fallo pero fácil de diagnosticar; anillo, determinista pero que se rompe si cae un nodo salvo doble anillo; y malla, máxima tolerancia a fallos pero con un número de enlaces que crece con el cuadrado del número de nodos">
@@ -280,7 +280,7 @@
 ## D5 · Topología física frente a topología lógica: los tres casos
 
 **Sección**: §2.2.2 — Topologías híbridas y estructuras jerárquicas
-**Propósito**: Aislar la distinción que más se pregunta de la sección, con los tres casos canónicos enfrentados: el mismo dibujo de cableado puede esconder tres comportamientos completamente distintos.
+**Propósito**: Aislar la distinción central de la sección, con los tres casos canónicos enfrentados: el mismo dibujo de cableado puede esconder tres comportamientos completamente distintos.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 346" role="img" aria-label="Los tres casos en que la topología física y la lógica no coinciden: Ethernet con concentrador es estrella física y bus lógico con colisiones; Token Ring con unidad de acceso al medio es estrella física y anillo lógico; y Ethernet con conmutador es estrella física y punto a punto lógico, sin bus y sin colisiones">
@@ -340,7 +340,7 @@
 ## D6 · Modos de transmisión: sentido, número de líneas y sincronismo
 
 **Sección**: §3.1 — Modos y sentidos de transmisión de datos
-**Propósito**: Separar las tres clasificaciones que suelen mezclarse en las preguntas y subrayar la consecuencia que arrastra la primera: **el método de acceso solo hace falta en semidúplex sobre medio compartido**.
+**Propósito**: Separar las tres clasificaciones que suelen mezclarse y subrayar la consecuencia que arrastra la primera: **el método de acceso solo hace falta en semidúplex sobre medio compartido**.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 352" role="img" aria-label="Tres clasificaciones independientes de los modos de transmisión: por sentido en símplex, semidúplex y dúplex; por número de líneas en serie y paralelo; y por sincronismo en asíncrona, síncrona e isócrona; la consecuencia clave es que el método de acceso al medio solo hace falta cuando la transmisión es semidúplex sobre medio compartido">
@@ -445,7 +445,7 @@
   <text x="32" y="237" class="d7"><tspan class="k7">Dónde está</tspan>         TODA la familia ETHERNET (10BASE-T…)          ·   Televisión por cable, DOCSIS, ADSL/VDSL y, en radio, Wi-Fi</text>
 
   <rect x="22" y="256" width="636" height="52" rx="5" fill="none" stroke="#d13c3c" stroke-width="1.5"/>
-  <text x="340" y="274" text-anchor="middle" class="r7">La trampa recurrente del examen</text>
+  <text x="340" y="274" text-anchor="middle" class="r7">La trampa recurrente</text>
   <text x="340" y="290" text-anchor="middle" class="d7">La única Ethernet de banda ancha que llegó a normalizarse fue 10BROAD36, y NUNCA SE IMPLANTÓ.</text>
   <text x="340" y="303" text-anchor="middle" class="d7">Toda Ethernet real es de banda base. No confundir con el sentido comercial de «banda ancha» = conexión rápida a internet</text>
 
@@ -626,7 +626,7 @@
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 390" role="img" aria-label="Los tres medios guiados de una red local: par trenzado con su nomenclatura de apantallamiento y su tabla de categorías y clases desde Cat 5e clase D hasta Cat 8.1 clase I; cable coaxial, retirado de las redes locales y superviviente en la distribución de televisión; y fibra óptica en sus dos variantes multimodo para el troncal del edificio y monomodo para el enlace entre edificios">
   <style>.h10{font:700 13px system-ui,sans-serif;fill:#0055a0}.k10{font:700 10px system-ui,sans-serif;fill:#0055a0}.d10{font:8.5px system-ui,sans-serif;fill:#333}.n10{font:8px system-ui,sans-serif;fill:#666}.w10{font:700 8.5px system-ui,sans-serif;fill:#fff}.g10{font:700 8.5px system-ui,sans-serif;fill:#2d8659}.r10{font:700 8.5px system-ui,sans-serif;fill:#d13c3c}</style>
-  <text x="340" y="20" text-anchor="middle" class="h10">Los tres medios guiados y la nomenclatura que se pregunta</text>
+  <text x="340" y="20" text-anchor="middle" class="h10">Los tres medios guiados y su nomenclatura</text>
 
   <rect x="22" y="32" width="206" height="126" rx="5" fill="#eef4fa"/>
   <text x="125" y="48" text-anchor="middle" class="k10">PAR TRENZADO</text>
@@ -833,7 +833,7 @@
 ## D13 · CSMA/CD: algoritmo y regla de los 64 octetos
 
 **Sección**: §4.2.1 — Método CSMA/CD en redes Ethernet
-**Propósito**: Encadenar en una sola lámina el algoritmo con sus cinco números memorizables y el razonamiento del que sale la **trama mínima de 64 octetos**, que es el argumento más elegante del tema y del que pueden salir preguntas de varios tipos.
+**Propósito**: Encadenar en una sola lámina el algoritmo con sus cinco números memorizables y el razonamiento del que sale la **trama mínima de 64 octetos**, que es el argumento más elegante del tema.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 390" role="img" aria-label="Algoritmo de CSMA barra CD paso a paso: escuchar el medio, esperar el espacio entre tramas de 96 tiempos de bit, transmitir escuchando a la vez, y ante colisión emitir una señal de atasco de 32 bits y esperar un tiempo aleatorio calculado por retroceso exponencial binario truncado en 10 con un límite de 16 intentos; a la derecha, el razonamiento del que sale la ranura de colisión de 512 tiempos de bit y la trama mínima de 64 octetos">
@@ -912,7 +912,7 @@
 ## D14 · CSMA/CA: DIFS, retroceso, ACK y el nodo oculto
 
 **Sección**: §4.2.2 — Método CSMA/CA en redes Wi-Fi
-**Propósito**: Representar la secuencia temporal completa de una transmisión Wi-Fi con sus espacios entre tramas y, debajo, el escenario del nodo oculto con la solución RTS/CTS, que es el par de preguntas más probable de toda la sección.
+**Propósito**: Representar la secuencia temporal completa de una transmisión Wi-Fi con sus espacios entre tramas y, debajo, el escenario del nodo oculto con la solución RTS/CTS, que es el par de conceptos central de toda la sección.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 424" role="img" aria-label="Secuencia temporal de CSMA barra CA: tras encontrar el medio libre durante un DIFS de 34 microsegundos la estación espera además un retroceso aleatorio de entre cero y CW menos uno ranuras de 9 microsegundos, transmite y el receptor responde con un acuse de recibo tras un SIFS de 16 microsegundos; debajo, el escenario del nodo oculto en el que dos estaciones que no se oyen entre sí colisionan en el punto de acceso, y su solución mediante el intercambio RTS CTS que actualiza el vector de asignación de red">
@@ -1137,7 +1137,7 @@
   <text x="178" y="313" text-anchor="middle" class="d16">de enlace predeterminada: un ENCAMINADOR, no traduce nada</text>
 
   <rect x="346" y="272" width="312" height="44" rx="5" fill="none" stroke="#d13c3c" stroke-width="1.5"/>
-  <text x="502" y="290" text-anchor="middle" class="r16">TRAMPA CLÁSICA DE LOS TEST</text>
+  <text x="502" y="290" text-anchor="middle" class="r16">TRAMPA CLÁSICA</text>
   <text x="502" y="304" text-anchor="middle" class="d16">El PANEL DE PARCHEO no es un dispositivo de interconexión:</text>
   <text x="502" y="313" text-anchor="middle" class="d16">es un elemento PASIVO del cableado estructurado</text>
 
@@ -1152,7 +1152,7 @@
 ## D17 · La etiqueta 802.1Q y la trama etiquetada
 
 **Sección**: §5.2.2 — Funcionamiento de conmutadores y redes virtuales
-**Propósito**: Desglosar campo a campo los cuatro octetos de la etiqueta, con los números que se preguntan, y señalar dónde se inserta exactamente y qué le ocurre al tamaño máximo de la trama.
+**Propósito**: Desglosar campo a campo los cuatro octetos de la etiqueta, con los números clave, y señalar dónde se inserta exactamente y qué le ocurre al tamaño máximo de la trama.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 346" role="img" aria-label="La etiqueta IEEE 802.1Q se inserta entre la dirección de origen y el campo de tipo o longitud, mide cuatro octetos y se compone de un identificador de protocolo de etiqueta de valor fijo 0x8100, tres bits de prioridad conocidos como 802.1p, un bit indicador de descarte elegible y doce bits de identificador de VLAN, de los que se reservan el cero y el 4095, quedando 4094 VLAN utilizables; la trama pasa de 1518 a 1522 octetos">

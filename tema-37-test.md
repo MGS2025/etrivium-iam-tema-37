@@ -504,7 +504,7 @@ C) Cat 5e, que corresponde a la clase D y a 100 MHz
 
 <details><summary>Respuesta</summary>
 
-**Correcta: B) Cat 6A, que corresponde a la clase EA y a 500 MHz** Cat 6 también admite 10 Gbit/s, pero solo hasta 55 metros, matiz que se pregunta como trampa. Conviene recordar además la distinción: la categoría se predica de los componentes y la clase, del enlace instalado y medido.
+**Correcta: B) Cat 6A, que corresponde a la clase EA y a 500 MHz** Cat 6 también admite 10 Gbit/s, pero solo hasta 55 metros. Conviene recordar además la distinción: la categoría se predica de los componentes y la clase, del enlace instalado y medido.
 
 *Referencia: §3.5.1 [ISO11801] [EN50173]*
 </details>
