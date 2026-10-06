@@ -255,7 +255,7 @@
   <circle cx="614" cy="104" r="5" fill="#0055a0"/>
   <path d="M546,62 L614,62 M546,104 L614,104 M546,62 L546,104 M614,62 L614,104 M546,62 L614,104 M614,62 L546,104" stroke="#666" stroke-width="1"/>
   <text x="580" y="118" text-anchor="middle" class="g4">Máxima tolerancia a fallos</text>
-  <text x="580" y="132" text-anchor="middle" class="r4">Coste prohibitivo: n(n-1)/2 enlaces</text>
+  <text x="580" y="132" text-anchor="middle" class="r4" style="font-size:8px">Coste prohibitivo: n(n-1)/2 enlaces</text>
   <text x="580" y="146" text-anchor="middle" class="d4">Solo entre conmutadores de núcleo</text>
 
   <rect x="22" y="172" width="636" height="22" rx="3" fill="#f7f9fb"/>
@@ -602,7 +602,7 @@
   <rect x="134" y="248" width="90" height="26" fill="#3d82c4"/><text x="179" y="265" text-anchor="middle" class="w9">ESTACIÓN 3</text>
   <rect x="228" y="248" width="45" height="26" fill="#e89822"/><text x="250" y="265" text-anchor="middle" class="w9">EST. 4</text>
   <rect x="277" y="248" width="70" height="26" fill="#7fa8cc"/><text x="312" y="265" text-anchor="middle" class="w9">ESTACIÓN 5</text>
-  <rect x="351" y="248" width="143" height="26" fill="#c9d6e2"/><text x="422" y="265" text-anchor="middle" class="w9">UNIDADES DE RECURSO LIBRES</text>
+  <rect x="351" y="248" width="143" height="26" fill="#c9d6e2"/><text x="422" y="265" text-anchor="middle" class="w9" style="fill:#33475b">UNIDADES DE RECURSO LIBRES</text>
   <text x="512" y="252" class="g9">La novedad real</text>
   <text x="512" y="264" class="n9">de Wi-Fi 6: atiende</text>
   <text x="512" y="276" class="n9">a muchos clientes</text>
@@ -975,7 +975,7 @@
   <text x="346" y="310" class="n14">Ambos llevan la DURACIÓN prevista de la ocupación del medio</text>
 
   <rect x="30" y="334" width="628" height="56" rx="5" fill="none" stroke="#0055a0" stroke-width="1.5"/>
-  <text x="344" y="354" text-anchor="middle" class="k14">CSMA/CD frente a CSMA/CA — la comparación más probable del tema</text>
+  <text x="344" y="354" text-anchor="middle" class="k14">CSMA/CD frente a CSMA/CA — la comparación central del tema</text>
   <text x="344" y="370" text-anchor="middle" class="d14">detecta la colisión / la evita · cable / radio · sin acuse / ACK obligatorio · atasco de 32 bits / RTS-CTS y NAV</text>
   <text x="344" y="384" text-anchor="middle" class="d14">retroceso solo tras colisionar / también antes · se desactiva en dúplex / siempre activa, porque la radio es semidúplex</text>
 
@@ -1117,7 +1117,7 @@
   <text x="232" y="214" class="n16">agregar rutas</text>
   <text x="360" y="194" class="g16">UNO POR INTERFAZ</text>
   <text x="360" y="208" class="n16">Reconstruye la trama en cada salto</text>
-  <text x="512" y="194" class="g16">UNO POR INTERFAZ — LO DIVIDE</text>
+  <text x="512" y="194" class="g16">UNO POR INTERFAZ — lo divide</text>
   <text x="512" y="208" class="n16">No reenvía la difusión de capa 2</text>
 
   <rect x="22" y="222" width="636" height="40" fill="#fdf3e3"/>
@@ -1131,17 +1131,17 @@
   <text x="360" y="240" class="n16">Interconecta arquitecturas heterogéneas:</text>
   <text x="360" y="253" class="n16">correo, voz a red telefónica, protocolo industrial</text>
 
-  <rect x="22" y="272" width="312" height="44" rx="5" fill="none" stroke="#d13c3c" stroke-width="1.5"/>
+  <rect x="22" y="272" width="312" height="48" rx="5" fill="none" stroke="#d13c3c" stroke-width="1.5"/>
   <text x="178" y="290" text-anchor="middle" class="r16">AMBIGÜEDAD QUE INDUCE A ERROR</text>
   <text x="178" y="304" text-anchor="middle" class="d16">La «pasarela» de la configuración de un equipo es la puerta</text>
-  <text x="178" y="313" text-anchor="middle" class="d16">de enlace predeterminada: un ENCAMINADOR, no traduce nada</text>
+  <text x="178" y="315.5" text-anchor="middle" class="d16">de enlace predeterminada: un ENCAMINADOR, no traduce nada</text>
 
-  <rect x="346" y="272" width="312" height="44" rx="5" fill="none" stroke="#d13c3c" stroke-width="1.5"/>
+  <rect x="346" y="272" width="312" height="48" rx="5" fill="none" stroke="#d13c3c" stroke-width="1.5"/>
   <text x="502" y="290" text-anchor="middle" class="r16">TRAMPA CLÁSICA</text>
   <text x="502" y="304" text-anchor="middle" class="d16">El PANEL DE PARCHEO no es un dispositivo de interconexión:</text>
-  <text x="502" y="313" text-anchor="middle" class="d16">es un elemento PASIVO del cableado estructurado</text>
+  <text x="502" y="315.5" text-anchor="middle" class="d16">es un elemento PASIVO del cableado estructurado</text>
 
-  <text x="340" y="340" text-anchor="middle" class="k16">Las direcciones MAC cambian en cada salto · las direcciones IP no cambian en todo el trayecto</text>
+  <text x="340" y="342" text-anchor="middle" class="k16">Las direcciones MAC cambian en cada salto · las direcciones IP no cambian en todo el trayecto</text>
 
   <text x="670" y="360" text-anchor="end" class="n16">[Fuente: ISO/IEC 7498-1 · IEEE 802.1D · Kurose]</text>
 </svg>
